@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.row {
+    width: 100%;
+}
+
+body {
+  background-color: #A8D5BAFF;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+
+.Section {
+background-color: rgb(190, 190, 190);
+border: 2px solid black;
+margin-top: 20px; 
+margin-right: 20px; 
+padding: 3px;
+text-align: justify;
+position: relative;
+border-radius: 0.1em;
+}
+
+span{
+  font-size: 20px;
+	width: 150px;
+	border: 2px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+  position: absolute;
+  border: 2px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 0.1em;
+}
+
+#Hors {
+	background-color: #D7A9E3FF;
+	color: rgb(0, 0, 0);
+}
+#Mains {
+	background-color: #078282FF;
+	color: rgb(0, 0, 0);
+}
+#Desserts {
+	background-color: #FF4F58FF;
+	color: rgb(0, 0, 0);
+}
+
+p {
+  padding: 15px 5px 0px 5px;
+	font-family: Georgia sans-serif;
+	font-size: 16px;
+	position: relative;
+  }
+  
+@media (min-width: 992px) {
+.col-lg-4 {
+      float: left;
+      border: none;
+      width: 33.33%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      float: left;
+      border: none;
+      width: 50%;
+    }
+    .col-md-12 {
+      float: left;
+      border: none;
+      width: 100%;
+    }
+  }
