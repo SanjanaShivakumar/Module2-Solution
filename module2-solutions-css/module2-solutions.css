@@ -25,7 +25,6 @@ margin-right: 20px;
 padding: 3px;
 text-align: justify;
 position: relative;
-border-radius: 0.1em;
 }
 
 span{
@@ -39,7 +38,6 @@ span{
   border: 2px solid black;
   border-top: 1px solid black;
   border-right: 1px solid black;
-  border-radius: 0.1em;
 }
 
 #Hors {
@@ -56,10 +54,11 @@ span{
 }
 
 p {
+
   padding: 15px 5px 0px 5px;
 	font-family: Georgia sans-serif;
 	font-size: 16px;
-	position: relative;
+  position: relative;
   }
   
 @media (min-width: 992px) {
